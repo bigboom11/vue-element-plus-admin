@@ -45,6 +45,7 @@ const formatNumber = (num: number | string) => {
   return prefix + x1 + x2 + suffix
 }
 
+/* eslint-disable */
 const state = reactive<{
   localStartVal: number
   printVal: number | null

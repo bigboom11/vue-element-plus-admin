@@ -17,6 +17,7 @@ const props = defineProps({
 
 const emit = defineEmits(['update:modelValue', 'change'])
 
+/* eslint-disable */
 const colorVal = ref(props.modelValue)
 
 watch(

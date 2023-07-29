@@ -38,6 +38,7 @@ const visibleChange = (visible: boolean) => {
 
 const elDropdownMenuRef = ref<ComponentRef<typeof ElDropdown>>()
 
+/* eslint-disable */
 defineExpose({
   elDropdownMenuRef,
   tagItem: props.tagItem
